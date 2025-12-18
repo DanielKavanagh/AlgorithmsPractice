@@ -95,7 +95,6 @@ public class LRUCache {
     public int getLeastRecentlyUsed() {
         return tail.prev.key;
     }
-
 }
 
 class ListNode {
